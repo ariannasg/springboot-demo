@@ -1,6 +1,6 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 
-# Using Spring Boot - Course
+# Demo app - Spring Boot Course
 
 * [Description](#description)
 * [Objectives](#objectives)
@@ -25,6 +25,9 @@ Learn Spring by creating a demo app using Spring Boot.
 ## Steps taken to setup the project
 - Created project at https://start.spring.io/
 ![Image of project config](spring-initializr.png)
+- Added an [index.html](src/main/resources/static/index.html) file for testing that the configuration is correct:
+    - Run [SpringbootDemoApplication.java](src/main/java/com/training/springbootdemo/SpringbootDemoApplication.java)
+    - Visited http://localhost:8080/ 
 
 ## License
 This project is licensed under the terms of the MIT License.
