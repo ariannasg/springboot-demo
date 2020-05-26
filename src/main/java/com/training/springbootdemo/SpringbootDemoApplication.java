@@ -3,6 +3,10 @@ package com.training.springbootdemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+// using @SpringBootApplication annotation makes this file a configuration file.
+// it also makes this file the starting of all our components scanning.
+// it also initiates  the auto-configuration capabilities that Spring Boot  offers
 @SpringBootApplication
 public class SpringbootDemoApplication {
 

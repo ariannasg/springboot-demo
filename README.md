@@ -5,6 +5,7 @@
 * [Description](#description)
 * [Objectives](#objectives)
 * [Steps taken to setup the project](#steps-taken-to-setup-the-project)
+* [Run locally](#run-locally)
 * [License](#license)
 
 ## Description
@@ -28,6 +29,12 @@ Learn Spring by creating a demo app using Spring Boot.
 - Added an [index.html](src/main/resources/static/index.html) file for testing that the configuration is correct:
     - Run [SpringbootDemoApplication.java](src/main/java/com/training/springbootdemo/SpringbootDemoApplication.java)
     - Visited http://localhost:8080/ 
+    
+## Run locally
+To run the app locally, execute the following command from the project root:
+```
+java -jar target/springboot-demo-0.0.1-SNAPSHOT.jar
+```
 
 ## License
 This project is licensed under the terms of the MIT License.
