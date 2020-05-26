@@ -30,6 +30,9 @@ Learn Spring by creating a demo app using Spring Boot.
     - Run [SpringbootDemoApplication.java](src/main/java/com/training/springbootdemo/SpringbootDemoApplication.java)
     - Visited http://localhost:8080/ 
 - Added an embedded database using the Spring Data JPA and SQL files that will automatically run thanks to Spring Boot Autoconfiguration
+- Created an entity object and a repository interface for the room table.
+- Created a controller class for testing we could execute queries against our embedded database. 
+ie: listing all the rooms in the database when requesting i.e: http://localhost:8080/rooms  
     
 ## Run locally
 To run the app locally, execute the following command from the project root:
