@@ -29,6 +29,7 @@ Learn Spring by creating a demo app using Spring Boot.
 - Added an [index.html](src/main/resources/static/index.html) file for testing that the configuration is correct:
     - Run [SpringbootDemoApplication.java](src/main/java/com/training/springbootdemo/SpringbootDemoApplication.java)
     - Visited http://localhost:8080/ 
+- Added an embedded database using the Spring Data JPA and SQL files that will automatically run thanks to Spring Boot Autoconfiguration
     
 ## Run locally
 To run the app locally, execute the following command from the project root:
